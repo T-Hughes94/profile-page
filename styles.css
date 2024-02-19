@@ -1,0 +1,9 @@
+#skills-section .tech-logo {
+    /* Set the desired width and height for all images with the class 'tech-logo' */
+    width: 100px; /* Adjust the value as needed */
+    height: auto; /* Maintain aspect ratio */
+
+    /* Optional: Add additional styling if needed */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}

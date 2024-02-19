@@ -8,7 +8,7 @@ function updateClock() {
     const year = now.getFullYear();
     const month = (now.getMonth() + 1).toString().padStart(2, '0');
     const day = now.getDate().toString().padStart(2, '0');
-    const dateString = `${month}-${year}-${day}`;
+    const dateString = `${month}-${day}-${year}`;
 
     document.getElementById('clock').textContent = timeString + ' ' + dateString;
 }
